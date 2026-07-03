@@ -13,7 +13,7 @@
 ---
 
 ## 1. Executive Summary & Objectives
-This product will be a smart pet feeder that allows an owner to feed their pet automatically. This product will leverage a connected app to easily manage and control functionality to provide owners peace of mind surrounding food availability for their pets.
+This product is a smart pet feeder that allows an owner to feed their pet automatically. This product leverages a connected app to manage and control functionality, providing owners with peace of mind surrounding food availability for their pets.
 
 * **Project Overview:** A smart pet feeder with an accompanying phone app.
 * **Core Problem Solved:** When pet owners are away from home and want to ensure their pet is able to be fed they are able to check on the status of food supply, dispense food on command, and see when their pet has consumed food.
@@ -21,7 +21,22 @@ This product will be a smart pet feeder that allows an owner to feed their pet a
 ---
 
 ## 2. High-Level Scope (Features)
-> *Instruction: Outline what the product **will** do and, critically, what it **will not** do. This prevents feature creep during early layout and programming.*
+This product will:
+- Dispense food on command or at set intervals based on a schedule
+- Sense when a pet has eaten food from the bowl
+- Have one feeding bowls
+  - Optional conversion to two bowls
+- Monitor remaining food reservoir levels
+- Connect to a phone app
+- Be AC powered
+  - Have a battery backup
+- Have control buttons for manual overrides
+  - Dispensing
+  - Device pairing
+
+This product will **NOT**:
+- Feature a camera
+- Feature a display screen
 
 ### In-Scope Core Features
 * **[Feature 1]:** [e.g., Read high-fidelity IMU data at 100Hz and process precise orientation status.]
